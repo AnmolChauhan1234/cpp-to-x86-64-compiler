@@ -1,0 +1,9 @@
+services:
+  mycompiler:
+    platform: "linux/amd64"
+    build: .
+    container_name: mycompiler_dev
+    volumes:
+      - .:/app   
+    working_dir: /app
+    tty: true    

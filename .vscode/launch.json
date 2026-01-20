@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug MyCompiler",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug/mycompiler",
+            "args": ["${workspaceFolder}/input.txt"],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "preLaunchTask": "Make Build",
+            "externalConsole": true
+        }
+    ]
+}

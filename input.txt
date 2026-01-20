@@ -1,0 +1,5 @@
+const char a = 'a'; // hedfgdfjkgdfkbsdjb
+print a ;/*dfgkdhfgkjdnkj
+dfgjdbfjgbdjk
+dbfhjgbvd*/
+exit 0;

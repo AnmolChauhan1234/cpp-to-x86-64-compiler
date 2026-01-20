@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S", "${workspaceFolder}",
+                "-B", "${workspaceFolder}/debug",
+                "-DCMAKE_BUILD_TYPE=${input:buildType}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build the CMake project"
+        },
+        {
+            "label": "Make Build",
+            "type": "shell",
+            "command": "make",
+            "args": ["-C", "${workspaceFolder}/build"],
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "dependsOn": "CMake Build",
+            "detail": "Run make in the build directory"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "buildType",
+            "type": "pickString",
+            "description": "Select build type",
+            "options": ["", "Debug", "Release"],
+            "default": ""
+        }
+    ]
+}
