@@ -119,7 +119,7 @@ make run      # Build and run with input.txt
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/02YashRajput/mycompiler.git
+git clone https://github.com/AnmolChauhan1234/cpp-to-x86-64-compiler.git
 cd mycompiler
 ```
 
@@ -357,4 +357,8 @@ This project is open source. See the repository for license details.
 
 ## Author
 
-Created by [02YashRajput](https://github.com/02YashRajput)
+Created and maintained by [Anmol Chauhan](https://github.com/AnmolChauhan1234)
+
+> This project was developed as part of collaborative learning with peers.  
+> The current implementation, maintenance, and future roadmap are handled by Anmol Chauhan.
+
