@@ -120,7 +120,7 @@ make run      # Build and run with input.txt
 
 ```bash
 git clone https://github.com/AnmolChauhan1234/cpp-to-x86-64-compiler.git
-cd mycompiler
+cd cpp-to-x86-64-compiler
 ```
 
 2. **Create build directory:**
